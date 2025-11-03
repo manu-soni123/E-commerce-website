@@ -1,0 +1,505 @@
+.name{
+ 
+  color: black;
+}
+.myimg{
+  margin-right: 40px;
+}
+.navlist{
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+  margin: 15px;
+  }
+  
+  .box1{
+  
+
+  height: 400px;
+  width: 400px;
+  margin-left: 450px;
+  margin-top: 60px;
+ border: 1px solid gray;
+ border-radius: 10px;
+ 
+  } 
+  .box1 h4{
+    font-size: 30px;
+    color:white;
+    margin-left: 150px;
+    
+  }
+  .mylog1{
+ height: 100vh;
+   width: 100vw;
+
+  background-image: url(https://cdn.vectorstock.com/i/preview-1x/32/14/black-background-luxury-texture-abstract-vector-29553214.jpg);
+ }
+
+  
+  .mylog input{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+   .mylog input ::placeholder{
+    color: blue;
+   }
+  .mylog label{
+    font-size: 25px;
+    width: 50px;
+    height: 100px;
+    color: white;
+  }
+  .mylog button{
+    background-color:cadetblue;
+    margin-right: 100px;
+    font-size:15px ;
+    margin-left: 100px;
+  }
+  .mylog a{
+    font-size: 20px;
+    margin: 20px;
+    
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+  }
+  .mylog p{
+    margin: 20px;
+    color: darkslategray;
+  }
+.navlist li a{
+  
+  display: flex;
+ /* justify-content: center;
+align-items: center;
+text-align: center; */
+ margin: 15px; 
+
+font-size: 40px;
+color: black;
+
+}
+.newdiv link{
+  color: black;
+}
+
+.newdiv{
+   background-color:lightblue; 
+ height: 70px;
+  width: 100%; 
+position: fixed ;top:0;
+left: 0;
+align-items:right;
+margin-bottom: 10px;
+font-size: 20px;
+color: black;
+
+}
+.contact{
+ background-color:lightblue;  
+ height: 70px;
+ width: 100%; 
+ color: black;
+  position: fixed ;bottom: 0;
+  display: flex;
+  
+  
+}
+.contact li a{
+  color: white;
+}
+.end{
+   list-style-type: none;
+  gap: 2em;
+  position: sticky;
+margin-left: 350px;
+
+  flex-direction: row;
+}
+.end li a{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  
+}
+.end1 li a{
+  color: black;
+}
+.end2 li a{
+  color: black;
+}
+.mp{
+   margin-left: 150px; 
+   padding-top: 0rem;
+}
+.pic img{
+  margin-left: 150px;
+  width: 350px;
+  
+}
+.combo img{
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  
+}
+.sign h1{
+ 
+
+  font-size: 30px; 
+  color: cadetblue;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.pic{
+  display: flex;
+}
+.box{
+  height: 30px;
+  width: 80px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  background-color:darkcyan;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+h2{
+  /* margin-left: 100px; */
+  font-size: 20px;
+}
+.pic p{
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.combo{
+  display: flex;
+ 
+}
+.jpg img{
+  margin: 15px;
+  width: 180px;
+}
+.jpg{
+  display: flex;
+}
+.mart{
+  display: flex;
+}
+.product{
+  display: grid;
+ grid-template-columns: repeat(3, 1fr); 
+ 
+  margin-top: 40px; 
+ /* height: 100vh;
+    width: 100vw; */
+}
+.navlist  img{
+   margin-right: 600px;
+ margin-left: 80px; 
+
+
+}
+.item{ 
+   margin-left: 150px;
+}
+
+.mylog{
+ 
+  margin-top: 50px;
+}
+
+
+ 
+   .connect{
+    
+    height: 100vh;
+    width: 100vw;
+   margin-left: 300px;
+    margin-top: 80px;
+    display: flex;
+   
+   }
+   .box4{
+  
+      height: 500px;
+ 
+  border: 1px solid black;
+   margin-left: 200px;
+   
+   margin-bottom: 100px;
+   }
+   .link{
+    color:white;
+   }
+   .page1{
+
+    background-color:dimgrey;
+     height: 100vh;
+    width: 100vw;
+    display: flex;
+   }
+   .page1 img{
+
+height: 400px;
+width: 550px;
+margin-top: 70px;
+}
+
+   h5{
+    font-size: 40px;
+   margin-top: 0px;
+   }
+   p{
+    font-size: 20px;
+   }
+   .box7{
+    height: 50px;
+    width: 150px;
+
+    color: white;
+    margin: 10px;
+    border-radius:0lh;
+   }
+   .com{
+    display: flex;
+    
+   }
+   h6{
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-style: italic;
+   }
+   
+  h3{
+    margin-left: 60px;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 30px;
+    color: white;
+  }
+  
+  
+   .list{
+    display: flex;
+   }
+   .box10{
+     height: 50px;
+    width: 200px;
+border: 1px solid black;
+    color: black;
+    
+    border-radius: rounded lg;
+   margin: 10px;
+   margin-left: 40px;
+    text-align: center;
+    font-style: italic;
+    background-color: aliceblue;
+   margin: 20px;
+   }
+   .box11{
+        
+         margin-top: 60px;
+        
+   }
+   .box12{
+      height:450px;
+    width: 600px;
+border: 1px solid black;
+    color: black;
+    border-radius: rounded lg;
+   margin-left: 70px;
+    text-align: center;
+    font-style: italic;
+   
+
+   }
+    .box15 button{
+   
+    margin-left: 100px;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    background-color: cadetblue;
+    
+   } 
+   .box15{
+    background-color: darkslategray;
+     width: 220px;
+     height: 200px;
+     margin-left: 20px;
+    margin: 20px;
+     border-radius: 10px;
+   }
+   .mycontact{
+    /* position: relative; */
+   height: 100vh;
+   width: 100vw;
+   /* padding: 50px 100px;  */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* margin-left: 250px; */
+   background-image: url(https://www.baltana.com/files/wallpapers-5/Light-Background-HD-Wallpapers-16374.jpg);
+  
+   }
+   .mycontact .content{
+    max-width: 800px;
+    text-align: center;
+   }
+    .mycontact .content h2{
+      font-size: 40px;
+      color: black;
+    }
+    
+     .mycontact .content p{
+      font-weight: 300;
+      
+     }
+   
+   .mycontactinfo{
+    width: 100%;
+      display: flex;
+      justify-content: center;
+    align-items: center;
+   }
+.form1
+   {
+    border-bottom: 1px solid black;
+    margin: 20px;
+   }
+.form1 input{
+  margin-bottom: 20px;
+}
+form h2{
+  font-size: 20px;
+ text-align: center;
+  color: black;
+  margin-right: 30px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color:white;
+  margin-top: 10px;
+}
+.m{
+  
+  margin-bottom: 80px;
+  width: 1000px;
+
+}
+form{
+  margin-left: 40px; 
+}
+
+.text1{
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+.box20 h2{
+ color:cornflowerblue;
+ font-size: 30px;
+ font: bold;
+}
+.fo{
+  
+  margin-left: 150px;
+  background-color: cornflowerblue;
+
+  
+}
+.content{
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-top: 10px;
+  
+}
+.content p{
+  font-size: 15px;
+}
+.head h2{
+  border: 1px solid black;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  color: black;
+  background-color: cornflowerblue;
+  text-align: center;
+  margin-left: 40px;
+}
+.sign{
+ 
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://www.baltana.com/files/wallpapers-5/Light-Background-HD-Wallpapers-16374.jpg);
+ 
+ 
+}
+.sign1{
+  height: 400px;
+  width: 700px;
+  
+  border-radius: 10px;
+   margin-top: 60px;
+   display: flex;
+ margin-left: 300px;
+   background-image: url(https://t3.ftcdn.net/jpg/08/97/07/86/360_F_897078648_733jVrqoH5LXB6EWc2607kQr2jaANQnk.jpg);
+
+}
+
+.side1{
+  height: 400px;
+  width: 300px;
+  margin-top: 30px;
+ 
+}
+
+.myform input{
+   border: 1px solid lightblue;
+   border-radius: 10px;
+   margin-left: 20px;
+   width: 150px;
+}
+.myform label{
+  color: white;
+}
+
+.myform p{
+   color: white;
+   margin: 10px;
+}
+.myform a{
+  color: blue;
+ 
+  
+  width: 150px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.myform h3{
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+}
+.myform button{
+  background-color: cornflowerblue;
+}
+.f2{
+  margin-left: 400px;
+}
+.f3{
+  margin-left: 200px;
+}
