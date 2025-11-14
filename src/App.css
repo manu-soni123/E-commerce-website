@@ -1,49 +1,61 @@
+body{
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 .name{
  
   color: black;
 }
-.myimg{
-  margin-right: 40px;
+.add{
+  display: flex;
+margin-left: 20px;
+}
+.add  i:hover{
+color: red;
+} 
+.pr{
+  margin-left: 120px;
+  
 }
 .navlist{
   display: flex;
   list-style-type: none;
-  gap: 2em;
-  margin: 15px;
-  }
-  
-  .box1{
-  
+  gap: 1em;
+}
 
+  .box1{
   height: 400px;
-  width: 400px;
-  margin-left: 450px;
-  margin-top: 60px;
- border: 1px solid gray;
- border-radius: 10px;
- 
-  } 
+  width: 600px;
+  border: 1px solid cadetblue;
+  border-radius: 10px;
+  margin-top: 60px;  
+  margin-left: 350px;
+  background-image: url(https://t3.ftcdn.net/jpg/08/97/07/86/360_F_897078648_733jVrqoH5LXB6EWc2607kQr2jaANQnk.jpg)
+ } 
   .box1 h4{
     font-size: 30px;
     color:white;
-    margin-left: 150px;
-    
-  }
+    text-align: center; 
+    margin-top: 20px;
+   }
   .mylog1{
  height: 100vh;
    width: 100vw;
-
-  background-image: url(https://cdn.vectorstock.com/i/preview-1x/32/14/black-background-luxury-texture-abstract-vector-29553214.jpg);
- }
-
+  background-image: url(https://www.baltana.com/files/wallpapers-5/Light-Background-HD-Wallpapers-16374.jpg);
+}
+.mylog{
+  text-align: center;
+}
   
   .mylog input{
     border: 1px solid black;
     margin: 5px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     border-radius: 10px;
     margin-left: 10px;
     color: white;
+    border: 1px solid cadetblue;
   }
    .mylog input ::placeholder{
     color: blue;
@@ -55,14 +67,14 @@
     color: white;
   }
   .mylog button{
-    background-color:cadetblue;
+    background-color:cornflowerblue;
     margin-right: 100px;
     font-size:15px ;
     margin-left: 100px;
   }
   .mylog a{
     font-size: 20px;
-    margin: 20px;
+    /* margin: 20px; */
     
     color: white;
     border-radius: 10px;
@@ -70,15 +82,16 @@
   }
   .mylog p{
     margin: 20px;
-    color: darkslategray;
+    color:white;
   }
+  
 .navlist li a{
   
-  display: flex;
+  /* display: flex; */
  /* justify-content: center;
 align-items: center;
 text-align: center; */
- margin: 15px; 
+ margin: 5px; 
 
 font-size: 40px;
 color: black;
@@ -88,20 +101,22 @@ color: black;
   color: black;
 }
 
+.newdiv button i{
+  margin-bottom: 5px;
+} 
 .newdiv{
-   background-color:lightblue; 
+  background-color:black; 
  height: 70px;
-  width: 100%; 
+width: 100%;  
 position: fixed ;top:0;
 left: 0;
-align-items:right;
-margin-bottom: 10px;
+align-items:left; 
 font-size: 20px;
 color: black;
-
+display: flex;
 }
 .contact{
- background-color:lightblue;  
+ background-color:black;  
  height: 70px;
  width: 100%; 
  color: black;
@@ -110,29 +125,26 @@ color: black;
   
   
 }
-.contact li a{
-  color: white;
+.navlist i{
+  color:white;
 }
-.end{
+.hd{
+  text-align: center;
+  color:darkslategray;
+  font:bolder;
+  margin-top: 10px;
+ }
+.contact li a{
+  color: whitesmoke
+}
+.end1{
    list-style-type: none;
   gap: 2em;
   position: sticky;
 margin-left: 350px;
-
-  flex-direction: row;
-}
-.end li a{
-  color: black;
+ color:white;
   display: flex;
-  flex-direction: row;
-  
-}
-.end1 li a{
-  color: black;
-}
-.end2 li a{
-  color: black;
-}
+ }
 .mp{
    margin-left: 150px; 
    padding-top: 0rem;
@@ -197,27 +209,55 @@ h2{
   display: flex;
 }
 .product{
-  display: grid;
- grid-template-columns: repeat(3, 1fr); 
  
-  margin-top: 40px; 
- /* height: 100vh;
-    width: 100vw; */
+  display: flex;
+
+ margin-top: 40px;
+ 
+ background-color:gainsboro ;
+   
 }
-.navlist  img{
-   margin-right: 600px;
- margin-left: 80px; 
-
-
+.fullproduct{
+   background-color:gainsboro ;
+   height: 100vh;
+   width: 100vw;
+}
+ .product1{
+  background-color:gainsboro;
+  width: 400px;
+} 
+.card-container{
+   
+    /* margin-left: 200px;   */
+   /* display: flex;
+   align-content: center; 
+   align-items: center;
+   justify-content: center;   */
+     height: 100vh;  
+     width: 100vw;    
+    
+}  
+ .show{
+    border: 1px solid black;
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    background-color:darkgrey;
+} 
+.myshow{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  margin-top: 40px;
 }
 .item{ 
    margin-left: 150px;
 }
 
-.mylog{
+ .mylog{
  
-  margin-top: 50px;
-}
+  margin-top: 20px;
+} 
 
 
  
@@ -239,8 +279,8 @@ h2{
    
    margin-bottom: 100px;
    }
-   .link{
-    color:white;
+    .link{
+    color:cornflowerblue;
    }
    .page1{
 
@@ -418,7 +458,8 @@ form{
   
   margin-left: 150px;
   background-color: cornflowerblue;
-
+height: 320px;
+width: 350px;
   
 }
 .content{
@@ -435,7 +476,7 @@ form{
   width: 200px;
   height: 30px;
   border-radius: 10px;
-  color: black;
+  color:black;
   background-color: cornflowerblue;
   text-align: center;
   margin-left: 40px;
@@ -448,6 +489,8 @@ form{
  
  
 }
+
+
 .sign1{
   height: 400px;
   width: 700px;
@@ -463,7 +506,7 @@ form{
 .side1{
   height: 400px;
   width: 300px;
-  margin-top: 30px;
+ 
  
 }
 
@@ -472,6 +515,7 @@ form{
    border-radius: 10px;
    margin-left: 20px;
    width: 150px;
+   color: white;
 }
 .myform label{
   color: white;
@@ -481,10 +525,8 @@ form{
    color: white;
    margin: 10px;
 }
-.myform a{
-  color: blue;
- 
-  
+.myform Link{
+  color: white;
   width: 150px;
   border-radius: 10px;
   margin: 20px;
@@ -502,4 +544,61 @@ form{
 }
 .f3{
   margin-left: 200px;
+}
+.add button{
+  background-color:lightblue;
+}
+/* .card{
+ display: grid;
+   grid-template-rows: repeat(3, 1fr);  
+}  */
+.atc{
+ 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: black
+  /* font: bold;
+ border-radius: 0px; */
+}
+.atc button{
+  background-color:cadetblue;
+}
+
+.heart{
+   background-color:gainsboro;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    
+}
+.mycart i{
+  color:cornflowerblue ;
+  
+}
+.product img{
+  margin-top: 5px;
+  width: 200px;
+}
+.sidebutton{
+  display: flex;
+  flex-direction: row;
+  /* width: 1200px; */
+}
+.nav-button{
+border: 1px solid black;
+border-radius: 50%;
+background-color:cadetblue; 
+
+}
+.mycart1{
+  background-color:white;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  margin: 1px;
+}
+.fullproduct img{
+    margin-left: 80px;
 }

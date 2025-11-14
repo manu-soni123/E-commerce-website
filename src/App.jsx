@@ -8,9 +8,8 @@ import './App.css'
  import Counter from './components/Counter'
  import Datafetch from './components/Datafetch' 
 import { BrowserRouter ,Routes,Route} from 'react-router-dom'
-
 import Contact from './components/contact'
- import Datashow from './components/Datashow'
+import Datashow from './components/Datashow'
 import ProductProvider from './context/productcontext'
 import Productcard from './components/Productcard'
 import Newheader from './components/Newheader'
@@ -19,14 +18,10 @@ import Signup from './components/signup'
 import Login from './components/Login'
 import Service from './components/service'
 // import Home from './components/Home'
-
-
-
+import Cart from './components/Cart'
 
 function App() {
-  
-
-  return (
+   return (
     <>
     <BrowserRouter>
     <ProductProvider>
@@ -43,10 +38,11 @@ function App() {
          <Route path="/Contact" element={<Contact/>}/> 
           <Route path="/Signup" element={<Signup/>}/>
             <Route path="/Login" element={<Login/>}/>
+            <Route path="/Cart" element={<Cart/>}/>
        </Routes>
       
        
- <Newfooter/>
+    <Newfooter/>
            {/* <Datashow/>
         <Header/>
       <Newhome/> 
@@ -60,5 +56,4 @@ function App() {
     </>
   )
 }
-
-  export default App;
+ export default App;

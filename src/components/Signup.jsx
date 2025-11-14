@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 // import react,{useState} from "react";
 export default function Signup(){
      const [name,setname]=useState('');
@@ -21,51 +22,38 @@ export default function Signup(){
     return(
         <>
         <div className="sign"> <p>manu</p>
-            < div className="sign1">
-                   <div className="side1">
-                   <h1> Create Account..!</h1>
-                    <div className="box15">
-                        <button>log in with facebook</button><br></br>
-                        <button>log in with google</button><br></br>
-                         <button>log in with instagram</button>
-                    </div>
-                   </div>
+            < div className="sign1"><div className="side1">
+                <img className="h-1/2 w-3/4  ml-5 rounded-xl mt-25 ml-10 " src="https://www.mindinventory.com/blog/wp-content/uploads/2022/10/button.png"></img></div>
                    <div className="side2">
-                      <div className="myform"><h3>Sign-in to explore</h3>
+                      <div className="myform" ><h3 className="p-1">Sign-in to explore</h3>
                       <form onSubmit={handlesubmit}>
                 <div>
-                     <label>Fullname</label>
-                     <input type="text" name="Name" placeholder="enter your name" value={name} onChange={
+                     <label >Fullname</label>
+                     <input className="p-1" type="text" name="Name" placeholder="enter your name" value={name} onChange={
                         (e)=>setname(e.target.value)}/>
                 </div><br></br>
                  <div>
                    <label>E-mailID</label>
-                    <input type="email" name="Email" placeholder="enter your email" value={email} onChange={
+                    <input className="p-1" type="email" name="Email" placeholder="enter your email" value={email} onChange={
                         (e)=>setemail(e.target.value)}/>
                 </div><br></br>
                  <div>
                     <label>password</label>
-                    <input type="password" name="Password" placeholder="enter your password" value={password} onChange={
+                    <input className="p-1" type="password" name="Password" placeholder="enter your password" value={password} onChange={
                         (e)=>setpassword(e.target.value)}/>
                 </div><br></br>
-                <button className="ml-25" type="submit">submit</button>
+                <button className="ml-25 p-1" type="submit">submit</button>
                 <div>
-                    <p>already have an account ?
-                    <a  href="#">login</a></p>
+                    <p>already have an account ?</p>
+                    <Link to="/Login"><p className="text-center">Log-in</p></Link>
                 </div>
-                
-
             </form>
-        </div></div>
-    
-
-
-                   </div>
-            </div> 
-       
-        </>
-    )
-   
+        </div>
+      </div>
+    </div>
+</div> 
+</>
+)
 }
 
 

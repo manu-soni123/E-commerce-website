@@ -13,7 +13,7 @@ export default function Contact() {
                  </div>
                  <div className='container'>
                     <div className='mycontactinfo'><div>
-                <div className='head'>      <h2>Get In Touch</h2></div>  
+                <div className='head'><h2>Get In Touch</h2></div>  
                         <div className='box20'>
                             <div className='icon'></div>
                                 
@@ -59,12 +59,13 @@ export default function Contact() {
                     <input type="text" name="massage"  
                         />
                         </div>
-                         <button className='ml-20 '  type="submit">send</button>
+                         <button className='ml-25 '  type="submit">send</button>
                        </form></div>
                        
                     </div>
                  </div>
-            </div></div>
+            </div>
+          </div>
         </div>
         </>
             )

@@ -6,8 +6,8 @@ export default function Newfooter(){
          <div className='contact'>
          
                 
-                    <div className='f2'> 
-                     <ul className='end1'> 
+                    {/* <div className='f2'>  */}
+                     <ul className='end1 mt-5'> 
                    
                    <li><a href="#">E-mail-noorsoni@gamil.com</a></li>
                     <li><a href="#">Contactno-6789056412
@@ -15,19 +15,12 @@ export default function Newfooter(){
                     <li><a href="#">Whatsapp-6790854321</a></li>
                     
                     
-                    </ul> </div> 
-                    <div className='f3'> 
-                     <ul className='end2'> 
-                   
-                     <li><a href="#">Your Account</a></li>
-                    <li><a href="#">Shipping rates
-                                    </a></li>
-                    <li><a href="#">Help</a></li>
-                    
-                    
-                    </ul> </div>
-         </div>
-         {/* <div class="last">
+                    </ul> 
+                   </div>
+                    </>
+                    )}
+        
+         /* <div class="last"
  <div class="end">
   
             <div class="about">
@@ -77,7 +70,6 @@ export default function Newfooter(){
        
 </div>
 <footer style="color:white; text-align: center; font-size:18px; margin-top: 20px;"> Copyright 2024 influencermarketinghub. all rights reserved</footer>
-</div> */}
-        </>
-    )
-}
+</div> */
+        
+    
