@@ -15,7 +15,6 @@ import Newheader from './components/Newheader'
 import Newfooter from './components/Newfooter'
 import Signup from './components/ Signup'
 import Login from './components/Login'
-
 // import Home from './components/Home'
 import Cart from './components/Cart'
 
