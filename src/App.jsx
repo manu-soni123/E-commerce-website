@@ -16,7 +16,7 @@ import Newheader from './components/Newheader'
 import Newfooter from './components/Newfooter'
 import Signup from './components/signup'
 import Login from './components/Login'
-import Service from './components/service'
+
 // import Home from './components/Home'
 import Cart from './components/Cart'
 
@@ -27,7 +27,7 @@ function App() {
     <ProductProvider>
      <Newheader/> 
     
-     <Service/>
+    
   
          {/* <Header/>   */}
        <Routes>

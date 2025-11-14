@@ -10,7 +10,7 @@ export default function Newheader(){
     return(
         <>
         <div className='newdiv'>
-           <Link to="/"  ><img src={image} alt='image' className="mt-2 ml-2 rounded-full" height={40} width={50}   /></Link>  
+           <Link to="/"><img src={image} alt='image' className="mt-2 ml-2 rounded-full" height={40} width={50}   /></Link>  
              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
               <ul className='navlist mt-5  ml-70'> 
                    {/* <Link to="/" ><img src={image} alt='image' height={40} width={50}   /></Link>  */}
