@@ -13,9 +13,8 @@ import ProductProvider from './context/productcontext'
 import Productcard from './components/Productcard'
 import Newheader from './components/Newheader'
 import Newfooter from './components/Newfooter'
-import Signup from './components/ Signup'
+import Signup from './components/signup'
 import Login from './components/Login'
-// import Home from './components/Home'
 import Cart from './components/Cart'
 
 function App() {
@@ -32,7 +31,7 @@ function App() {
          <Route path="/" element={<Productcard/>}/> 
         
          {/* <Route path="/Home" element={<Home/>}/> */}
-          <Route path="/Service" element={<Service/>}/>
+         
          <Route path="/Contact" element={<Contact/>}/> 
           <Route path="/Signup" element={<Signup/>}/>
             <Route path="/Login" element={<Login/>}/>
