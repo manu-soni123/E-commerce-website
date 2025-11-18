@@ -132,7 +132,7 @@ display: flex;
   text-align: center;
   color:darkslategray;
   font:bolder;
-  margin-top: 10px;
+  margin-top: 5px;
  }
 .contact li a{
   color: whitesmoke
@@ -223,8 +223,12 @@ h2{
    width: 100vw;
 }
  .product1{
-  background-color:gainsboro;
+  background-color:darkgrey;
   width: 400px;
+  height: 350px;
+  border-radius: 20px;
+
+
 } 
 .card-container{
    
@@ -238,11 +242,12 @@ h2{
     
 }  
  .show{
-    border: 1px solid black;
+     border: 1px solid black; 
     width: 280px;
     height: 300px;
     margin: 10px;
     background-color:darkgrey;
+    
 } 
 .myshow{
   display:flex;
@@ -554,8 +559,8 @@ width: 350px;
 }  */
 .atc{
  
-  margin-bottom: 10px;
-  margin-top: 10px;
+  /* margin-bottom: 10px; */
+ 
   display: flex;
   justify-content: center;
   color: black
@@ -564,6 +569,11 @@ width: 350px;
 }
 .atc button{
   background-color:cadetblue;
+  border-radius: 100px;
+  border: 1px solid black;
+
+ margin: 5px;
+ text-align: center;
 }
 
 .heart{
@@ -577,8 +587,7 @@ width: 350px;
   
 }
 .product img{
-  margin-top: 5px;
-  width: 200px;
+   width: 200px;
 }
 .sidebutton{
   display: flex;

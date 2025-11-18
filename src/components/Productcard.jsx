@@ -35,11 +35,11 @@ export default function Productcard() {
           </button>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
           {filteredProducts.slice(startIndex, endIndex).map((product) => (
-            <div className=" product1  m-2 " key={product.id} style={{ border: "1px solid black" }}>
+            <div className=" product1  m-2 " key={product.id} style={{ border: "1px solid black " }}>
               <h2 className="hd">{product.title}</h2>
               <img src={product.thumbnail} alt={product.title} />
               <p className="text-center">price:{product.price}</p>
-              <p className="text-center mb-5">rating:{product.rating}</p>
+              <p className="text-center ">rating:{product.rating}</p>
               <div className="atc"><button onClick={() => addToCart(product)} >
                 add to cart
               </button> </div>
