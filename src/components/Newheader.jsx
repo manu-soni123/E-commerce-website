@@ -1,5 +1,6 @@
 import React,{useContext} from "react";
-import {Productcontext}from '../context/Productcontext';
+// import {Productcontext}from '../context/Productcontext';
+import { Productcontext } from "../context/productcontext";
 import '../App.css'
 import {Link} from "react-router-dom";
 import image from "../assets/com.jpg";
