@@ -1,13 +1,12 @@
 import react, { useContext, useState } from "react";
 import '../App.css'
-import { Productcontext } from "../context/productcontext";
+import { Productcontext } from '../context/Productcontext';
 import { Link } from "react-router-dom";
 export default function Productcard() {
   const { filteredProducts, products, addToCart } = useContext(Productcontext);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 3;
   const totalProducts = filteredProducts.length;
-
   const startIndex = currentPage * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 

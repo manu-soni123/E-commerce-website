@@ -7,7 +7,7 @@ export default function ProductProvider({children}){
     const [count, setCount] = useState(0);
 async function display() {
    try{
-            // const response =await fetch("https://dummyjson.com/products");
+            
             const response=await fetch("https://dummyjson.com/products");
             const data =await response.json();
             const product=data.products;

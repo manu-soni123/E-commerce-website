@@ -1,5 +1,5 @@
 import React from "react";
-import { Productcontext } from "../context/productcontext";
+import {Productcontext} from '../context/Productcontext';
 export default function Cart() {
   const { cart, removeFromCart } = React.useContext(Productcontext);
   return (
@@ -15,7 +15,7 @@ export default function Cart() {
             <img src={item.thumbnail} alt={item.title} className=" w-45 ml-12 object-cover" />
             <h2 className="text-center">{item.title}</h2>
             <p className="text-center">Price: ${item.price}</p>
-            <button className='remove-from-cart border-4 ml-12 ' onClick={()=>removeFromCart(item.id)}>Remove from Cart</button>
+            <button className='remove-from-cart border-4 ml-12' onClick={()=>removeFromCart(item.id)}>Remove from Cart</button>
             </div> 
          </div>
         ))
