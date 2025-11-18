@@ -13,7 +13,7 @@ import ProductProvider from './context/productcontext'
 import Productcard from './components/Productcard'
 import Newheader from './components/Newheader'
 import Newfooter from './components/Newfooter'
-import Signup from './components/signup'
+import Signup from './components/Signup'
 import Login from './components/Login'
 import Cart from './components/Cart'
 
