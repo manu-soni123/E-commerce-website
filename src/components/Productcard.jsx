@@ -1,6 +1,5 @@
 import react, { useContext, useState } from "react";
 import '../App.css'
-// import { Productcontext } from '../context/Productcontext';
 import { Productcontext } from "../context/productcontext";
 import { Link } from "react-router-dom";
 export default function Productcard() {

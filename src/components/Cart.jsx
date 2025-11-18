@@ -1,8 +1,7 @@
 import React from "react";
-import {Productcontext}from '../context/Productcontext';
+import { Productcontext } from "../context/productcontext";
 export default function Cart() {
   const { cart, removeFromCart } = React.useContext(Productcontext);
-  
   return (
     <div className="card-container  bg-sky-100 ">
        <h1 className="text-xl font-bold mt-10 text-center ">your cart</h1>  
