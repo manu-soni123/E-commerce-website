@@ -39,9 +39,9 @@ export default function Productcard() {
             <div className=" product1  m-2 " key={product.id} style={{ border: "1px solid black" }}>
               <h2 className="hd">{product.title}</h2>
               <img src={product.thumbnail} alt={product.title} />
-              <p className="text-center ">price:{product.price}</p>
-              <p className="text-center">rating:{product.rating}</p>
-              <div className="atc" >    <button onClick={() => addToCart(product)} >
+              <p className="text-center">price:{product.price}</p>
+              <p className="text-center mb-5">rating:{product.rating}</p>
+              <div className="atc"><button onClick={() => addToCart(product)} >
                 add to cart
               </button> </div>
               </div>
