@@ -15,7 +15,7 @@ export default function Cart() {
             <img src={item.thumbnail} alt={item.title} className=" w-45 ml-12 object-cover" />
             <h2 className="text-center">{item.title}</h2>
             <p className="text-center">Price: ${item.price}</p>
-            <button className='remove-from-cart border-4 ml-12' onClick={()=>removeFromCart(item.id)}>Remove from Cart</button>
+            <button className="cartbutton" onClick={()=>removeFromCart(item.id)}>Remove from Cart</button>
             </div> 
          </div>
         ))
@@ -24,3 +24,5 @@ export default function Cart() {
   </div>
   );
 }
+
+// className='remove-from-cart border-4 ml-12 bg-sky-100'

@@ -130,7 +130,7 @@ display: flex;
 }
 .hd{
   text-align: center;
-  color:darkslategray;
+  color:black;
   font:bolder;
   margin-top: 5px;
  }
@@ -225,7 +225,7 @@ h2{
  .product1{
   background-color:darkgrey;
   width: 400px;
-  height: 350px;
+   height: 350px; 
   border-radius: 20px;
 
 
@@ -247,7 +247,7 @@ h2{
     height: 300px;
     margin: 10px;
     background-color:darkgrey;
-    
+    border-radius: 20px;
 } 
 .myshow{
   display:flex;
@@ -610,4 +610,10 @@ background-color:cadetblue;
 }
 .fullproduct img{
     margin-left: 80px;
+}
+.cartbutton{
+background-color:cadetblue;
+margin-left: 52px;
+border-radius: 20px;
+border: 1px solid black;
 }
